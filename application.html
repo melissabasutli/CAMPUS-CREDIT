@@ -5,10 +5,10 @@
     <title>Campus Credit - Application</title>
 </head>
 <body>
-    <header>
+    
         <h1>Campus Credit</h1>
         <p>Your Future, Funded</p>
-    </header>
+    
     <nav>
         <a href="index.html">Home</a> |
         <a href="loan-options.html">Loan Options</a> |
@@ -19,6 +19,34 @@
     <main>
         <h2>Campus Credit - Application</h2>
         <p>Fill in the form below to begin your application:</p>
+        <h2>Loan Application Form</h2>
+    <p>Please fill out the form below to apply for a Campus Credit student loan.</p>
+
+    <form action="submit_application.php" method="post">
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="studentId">Student ID Number:</label><br>
+        <input type="text" id="studentId" name="studentId" required><br><br>
+
+        <label for="institution">Institution:</label><br>
+        <input type="text" id="institution" name="institution" required><br><br>
+
+        <label for="amount">Loan Amount Requested:</label><br>
+        <input type="number" id="amount" name="amount" required><br><br>
+
+        <label for="guarantor">Guarantor/Parent Name:</label><br>
+        <input type="text" id="guarantor" name="guarantor"><br><br>
+
+        <button type="submit">Submit Application</button>
+    </form>
+
+    <footer>
+        <p>&copy; 2026 Campus Credit | Your Future, Funded</p>
+    </footer>
+</body>
+</html>
+
     </main>
 </body>
 </html>
