@@ -38,5 +38,5 @@ form.addEventListener("submit", function(event) {
 
   
   alert("Sign up successful! Redirecting to Home page...");
-  window.location.href = "index.html"; 
+  window.location.href = "home.html"; 
 });
