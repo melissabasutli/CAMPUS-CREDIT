@@ -1,5 +1,5 @@
 
-* {
+head {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -55,6 +55,7 @@ main {
 
 section {
   margin-bottom: 30px;
+  width: auto;
 }
 
 h2 {
