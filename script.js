@@ -1,8 +1,4 @@
 
-window.onload = function() {
-  var modal = document.getElementById('id01');
-  modal.style.display = "block";
-};
 
 
 window.onclick = function(event) {
