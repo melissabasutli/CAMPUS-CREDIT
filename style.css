@@ -23,11 +23,6 @@ header {
   color: #6d7f92;
   padding: 20px 0;
   text-align: center;
-  border-bottom: #004080 2px solid;
-  z-index: 100;
-  position: relative;
-  width: 100%;
-  
 }
 
 header h1 {
@@ -49,7 +44,7 @@ nav {
 }
 
 nav a {
-  color: #000000;
+  color: #ffffff;
   text-decoration:color(from color srgb r g b);
   margin: 0 15px;
   font-weight: bold;
@@ -127,8 +122,13 @@ button:hover {
 
 
 footer {
+  position: relative;
   background-color: #133250;
-  color: #fff;
+  bottom: 0%;
+  left: 0%;
+  width: 100%;
+  
+  color: #000;
   text-align: center;
   padding: 15px;
   margin-top: 30px;
