@@ -18,6 +18,7 @@
         <a href="loan-options.html">Loan Options</a> |
         <a href="eligibility.html">Eligibility</a> |
         <a href="application.html">Application</a> |
+        <a href="contact us.html">Contact Us</a>
     </nav>
        
        
@@ -52,7 +53,20 @@
         <label for="studentIdCard">Upload Student ID:</label><br>
         <input type="file" id="studentIdCard" name="studentIdCard" accept="image/*" required><br><br>
 
+        <label for="enrollmentProof">Upload Proof of Enrollment:</label><br>
+        <input type="file" id="enrollmentProof" name="enrollmentProof" accept="image/*" required><br><br>
 
+        <label for="guarantorId">Upload Guarantor ID (if applicable):</label><br>
+        <input type="file" id="guarantorId" name="guarantorId" accept="image/*"><br><br>
+
+        <label for="repaymentplan">Preferred Repayment Plan:</label><br>
+        <select id="repaymentplan" name="repaymentplan" required>
+            <option value="">Select a plan</option>
+            <option value="standard">Standard Plan</option>
+            <option value="graduated">Graduated Plan</option>
+            <option value="income-driven">Income-Driven Plan</option>
+            <option value="deferred">Deferred Plan</option>
+        </select><br><br>
 
         <button type="submit">Submit Application</button>
     </form>
