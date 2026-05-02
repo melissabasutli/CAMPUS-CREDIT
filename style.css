@@ -154,7 +154,14 @@ img {
   color: rgb(239, 237, 235);
   line-height: 1.3;
   text-shadow: 0 0 4px #100000;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
 }
+
 .centered {
   position: absolute;
   top: 50%;
