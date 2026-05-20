@@ -167,8 +167,6 @@ img {
 .container > div {
   flex: 1 1 100%;
   max-width: 100%;
-  padding: 20px;
-  border-radius: 8px;
   min-width: 0;
 }
 @media (max-width: 768px) {
