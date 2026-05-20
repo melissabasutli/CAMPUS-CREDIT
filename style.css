@@ -165,12 +165,17 @@ img {
 }
 
 .container > div {
-  flex: 1 1 300px;
-  max-width: 350px;
+  flex: 1 1 100%;
+  max-width: 100%;
   padding: 20px;
   border-radius: 8px;
 }
-
+@media (max-width: 768px) {
+  .container > div {
+   padding: 15px;
+   gap: 10px;
+  }
+}
 .container img {
   width: 100%;
   height: auto;
