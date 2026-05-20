@@ -160,6 +160,8 @@ img {
   justify-content: center;
   gap: 20px;
   padding: 40px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .container > div {
