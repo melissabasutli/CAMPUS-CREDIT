@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="page-container">
     <header class="text-center" >
         <h1 class="fw-bold text-primary">Campus Credit</h1>
         <p class="lead">Your Future, Funded</p>
@@ -25,16 +26,17 @@
         <a href="contact us.html">Contact Us</a>
     </nav>
     </header>
+    <main>
     
     <h2>Loan Options</h2>
     <p>Campus Credit offers different types of student loans to meet your needs:</p>
-<div class="row">
+<div class="loan-grid">
    
-    <div class="container">
-        <img src="Graduation ceremony .png" >
-        <div class="text">
-            <strong>Tuition Loan: <p>Covers tuition fees for your degree program.</p>
-              <p>Repayment begins 6 months after graduation, with a fixed 5% interest rate.</p></strong>
+    <div class="loan-card">
+        <img src="Graduation ceremony .png" alt="Graduation">
+        <div class="card-content">
+            <h3>Tuition Loan:</h3> <p>Covers tuition fees for your degree program.</p>
+              <p>Repayment begins 6 months after graduation, with a fixed 5% interest rate.</p>
         </div>
     </div>
    
@@ -44,9 +46,9 @@
        
     
     
-     <div class="container">
-        <img src="Black female student.png" >
-        <div class="text">
+     <div class="loan-card">
+        <img src="Black female student.png" alt="Student" >
+        <div class="card-content">
             <h3>Living Expenses Loan:</h3>
             <p>Helps with accommodation, food, and transport.</p>
             <p>Flexible repayment plans available, tailored to student budgets.</p>
@@ -56,11 +58,12 @@
     
        
      
-    <div class="container">
-        <img src="Student buying books.png" >
-        <div class="text">
-            <strong>Book & Supplies Loan: <p>Provides funds for textbooks, laptops, and study materials.</p>
-              <p>Quick approval process to ensure you get resources on time.</p></strong>
+    <div class="loan-card">
+        <img src="Student buying books.png" alt="Student buying books">
+        <div class="card-content">
+            <h3>Book & Supplies Loan:</h3>
+            <p>Provides funds for textbooks, laptops, and study materials.</p>
+            <p>Quick approval process to ensure you get resources on time.</p>
         </div>
     </div>
 
@@ -73,13 +76,19 @@
 
     <h2>Repayment Plans</h2>
     <p>Our repayment plans are designed to be flexible and manageable, ensuring you can focus on your studies without the stress of financial burden.</p>
+    <ul>
 <li><strong>Standard Plan:</strong> Fixed monthly payments over a 10-year period.</li>
 <li><strong>Graduated Plan:</strong> Lower payments at the start, increasing every 2 years.</li>
 <li><strong>Income-Driven Plan:</strong> Payments based on your income after graduation.</li>
 <li><strong>Deferred Plan:</strong> Payments postponed until after graduation.</li>
+    </ul>
+    </main>
+
     <footer>
         <p>&copy; 2026 Campus Credit | Your Future, Funded</p>
     </footer>
+
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script> 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script> 
